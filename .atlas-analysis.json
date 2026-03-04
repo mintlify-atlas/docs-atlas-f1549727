@@ -1,0 +1,118 @@
+{
+  "projectType": "frontend",
+  "projectName": "Gemini Live API Web Console",
+  "projectDescription": "A React-based starter app for building real-time multimodal AI applications with the Gemini Live API over websockets",
+  "theme": "palm",
+  "primaryColor": "#4285F4",
+  "lightColor": "#34A853",
+  "darkColor": "#1A73E8",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/live-api-overview",
+              "concepts/audio-streaming",
+              "concepts/video-streaming",
+              "concepts/event-system"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/first-app",
+              "guides/function-calling",
+              "guides/custom-components",
+              "guides/media-integration"
+            ]
+          },
+          {
+            "group": "Examples",
+            "pages": [
+              "examples/overview",
+              "examples/altair-graphs",
+              "examples/proactive-audio"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Client",
+            "pages": [
+              "api/client/genai-live-client",
+              "api/client/live-api-context"
+            ]
+          },
+          {
+            "group": "Hooks",
+            "pages": [
+              "api/hooks/use-live-api",
+              "api/hooks/use-webcam",
+              "api/hooks/use-screen-capture",
+              "api/hooks/use-media-stream-mux"
+            ]
+          },
+          {
+            "group": "Components",
+            "pages": [
+              "api/components/control-tray",
+              "api/components/logger",
+              "api/components/audio-pulse",
+              "api/components/altair",
+              "api/components/side-panel",
+              "api/components/settings-dialog"
+            ]
+          },
+          {
+            "group": "Audio Utilities",
+            "pages": [
+              "api/audio/audio-recorder",
+              "api/audio/audio-streamer",
+              "api/audio/worklets"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Real-time bidirectional communication with Gemini Live API",
+    "Audio recording and streaming with Web Audio API",
+    "Webcam and screen capture integration",
+    "Event-driven architecture with EventEmitter",
+    "Pre-built React components for rapid development",
+    "Function calling and tool integration",
+    "Real-time logging and debugging tools"
+  ],
+  "publicApiSurface": [
+    "GenAILiveClient",
+    "LiveAPIProvider",
+    "useLiveAPIContext",
+    "useLiveAPI",
+    "useWebcam",
+    "useScreenCapture",
+    "useMediaStreamMux",
+    "AudioRecorder",
+    "AudioStreamer",
+    "ControlTray",
+    "Logger",
+    "AudioPulse",
+    "Altair",
+    "SidePanel",
+    "SettingsDialog"
+  ]
+}
